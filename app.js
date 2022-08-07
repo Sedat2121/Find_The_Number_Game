@@ -16,7 +16,7 @@ document.getElementById("guessNumber").focus();
 
 document.getElementById("button").onclick = function() {      
 
-    // number guessed by user     
+    // number guessed by the user     
     const guessNumber = +document.getElementById("guessNumber").value;
     console.log("guessNumber: ", guessNumber);
 
